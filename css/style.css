@@ -1,0 +1,262 @@
+*{margin:0;padding:0}
+body{
+	font-family:arial;
+	position:relative;
+}
+.container{
+	overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    margin: auto;
+}
+
+
+/*Header, Menu And Slider Image*/
+
+.menu_bg{
+	transition:all .5s;
+	background: #04081d;
+	/*background-color:#04081d33;*/
+}
+
+nav{
+	float:right;
+	height:55px;
+}
+nav ul{
+	list-style-type:none;
+	overflow:hidden;
+	padding: 15px 0;
+	transition:all .3s;
+}
+nav ul li{
+	float:left;
+	margin: 0 10px;
+}
+ul li .active{
+	color:#299E92;
+}
+nav ul li a{
+	text-decoration:none;
+    padding: 12px 0px;
+	color:white;
+	font-size:14px;
+	text-transform:uppercase;
+	
+}
+nav ul li a:hover{
+	color:#299E92;
+	text-decoration:none;
+	transition:all 0.75s;
+}
+#active{
+	color:#299E92;
+}
+
+.fixed{
+	background: #04081d;
+}
+
+
+.slider{
+	width:100%;
+	overflow:hidden;
+	height:632px;
+	background-image:linear-gradient(#00000050, #00000050),linear-gradient(#00000050, #00000050),url(../images/slider.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.title {
+
+    margin-top: 300px;
+    text-align: center;
+    color: wheat;
+
+}
+
+
+/*Signup From*/
+.from-inner {
+    padding: 20px;
+    margin: 100px auto;
+    width: 600px;
+    border: 1px solid #F98D79;
+    background-color: #0504044d;
+    color: #F9F9F9;
+}
+.bgpic{
+	background-image:url(../images/bgpic.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+
+.lfrom-inner {
+    padding: 20px;
+    margin: 160px auto;
+	margin-bottom: 110px;
+    width: 400px;
+    border: 1px solid #F98D79;
+    background-color: #0504044d;
+    color: #F9F9F9;
+}
+
+.lfrom-inner .fgbutton a{
+	color: #fff;
+}
+.lfrom-inner .fgbutton a:hover{
+	color: #5BDEBE;
+}
+
+
+
+.lbgpic{
+	background-image:linear-gradient(#00000050, #00000050),linear-gradient(#00000050, #00000050),url(../images/logpic.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+.fbgpic{
+	background-color:#5c798f;
+	
+}
+.log-text{
+	text-transform:uppercase;
+	color:tomato;
+}
+.tomato{
+	background-color:tomato;
+	color:#fff;
+	border:1px solid #ce7867;
+}
+.tomato:hover{
+	background-color:#cf442b;
+}
+
+
+/**** NAV ****/
+.callopse-menu nav{
+	float:none;
+}
+.callopse-menu nav ul{
+    width: 100%;
+    background-color: #012140;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: all 1s ease-in-out;
+}
+
+.callopse-menu nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.callopse-menu nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.callopse-menu nav ul li:hover {
+    background-color:#000000;
+}
+
+.menu-bars{
+    width: 100%;
+    background-color: #010f1d;
+    text-align: right;
+    padding: 20px;
+    color: #fff;
+    display: none;
+}
+
+.menu-bars .fa-bars{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+header {
+	display:none !important;
+}
+.from-inner {
+	width:70%;
+	margin: 50px auto;
+}
+
+.lfrom-inner {
+	width:70%;
+	margin: 50px auto;
+}
+.from-inner {
+    width: 90%;
+}
+/*Callopse Menu*/
+/**** RESPONSIVE ****/
+.callopse-menu{
+	display:block !important;
+}
+
+nav ul{
+        max-height: 0px;
+        position: fixed;
+        top: 4.5em;
+}
+
+nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+		margin-left:0;
+        text-align: left;
+}
+
+.menu-bars{
+        display: block !important;
+        position: fixed;
+        top: 0;
+}
+
+.showing{
+        max-height:50em;
+        position: fixed;
+        top: 4.5em;
+}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*Copy Right Section*/
+.copyright {
+    padding: 10px 0;
+    background: #04081d;
+    overflow: hidden;
+}
+
+.copyright p {
+    color:white;
+	margin-bottom:-4px;
+	padding:10px 0;
+	font-size: 14px;
+}
+.copyright p a{
+	text-decoration:none;
+	color: #56a4da;
+}

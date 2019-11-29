@@ -1,0 +1,299 @@
+*{margin:0;padding:0}
+body{
+	font-family:arial;
+	position:relative;
+}
+.container{
+	overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    margin: auto;
+}
+
+
+/*Header, Menu And Slider Image*/
+
+.menu_bg{
+	/*transition:all .5s;*/
+	background: #04081d;
+	/*background-color:#04081d33;*/
+}
+
+nav{
+	float:right;
+	height:55px;
+}
+nav ul{
+	list-style-type:none;
+	overflow:hidden;
+	padding: 15px 0;
+	/*transition:all .3s;*/
+}
+.active{
+	color: #299E92;
+    background-color: #000000;
+}
+
+
+
+
+
+
+nav ul li{
+	float:left;
+	margin: 0 10px;
+}
+ul li .active{
+	color:#299E92;
+}
+nav ul li a{
+	text-decoration:none;
+    padding: 12px 0px;
+	color:white;
+	font-size:14px;
+	text-transform:uppercase;
+	
+}
+nav ul li a:hover{
+	color:#299E92;
+	text-decoration:none;
+	transition:all 0.75s;
+}
+
+
+
+/*Signup From*/
+.from-inner {
+    padding: 20px;
+    margin: 30px auto;
+    width: 600px;
+    border: 1px solid #F98D79;
+    background-color: #0504044d;
+    color: #F9F9F9;
+}
+.bgpic{
+	background-image:url(../images/bgpic.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+
+.lfrom-inner {
+    padding: 20px;
+    margin: 160px auto;
+	margin-bottom: 110px;
+    width: 400px;
+    border: 1px solid #F98D79;
+    background-color: #0504044d;
+    color: #F9F9F9;
+}
+
+.lfrom-inner .fgbutton a{
+	color: #fff;
+}
+.lfrom-inner .fgbutton a:hover{
+	color: #5BDEBE;
+}
+
+
+
+.lbgpic{
+	background-image:linear-gradient(#00000050, #00000050),linear-gradient(#00000050, #00000050),url(../images/logpic.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+.fbgpic{
+	background-color:#5c798f;
+	
+}
+.log-text{
+	text-transform:uppercase;
+	color:tomato;
+}
+.tomato{
+	background-color:tomato;
+	color:#fff;
+	border:1px solid #ce7867;
+}
+.tomato:hover{
+	background-color:#cf442b;
+}
+
+
+/**** NAV ****/
+.callopse-menu nav{
+	float:none;
+	background: #010f1d;
+}
+.callopse-menu nav ul{
+    width: 250px;
+	right:0;
+    background-color: #012140;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    /*transition: all 1s ease-in-out;*/
+	max-height: 0px;
+	position: fixed;
+	top: 3.4em;
+}
+
+
+.callopse-menu nav ul li{
+    display: inline-block;
+    padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	margin-left:0;
+	text-align: left;
+}
+
+.callopse-menu nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.callopse-menu nav ul li:hover {
+    background-color:#000000;
+	color:#299E9;
+}
+
+.menu-bars{
+    width: 50px;
+    text-align: right;
+    padding: 10px;
+    color: #fff;
+    display: block !important;
+	position: fixed;
+	top: 0;
+	right:0;
+	margin-right: 15px;
+}
+
+.menu-bars .fa-bars{
+    cursor: pointer;
+}
+.showing{
+    max-height:100em!important;   	
+}
+.admin span {
+    color: #d8d8d8;
+    margin-top: 14px;
+    margin-right: 75px;
+    background: none;
+    font-size: 18px;
+}
+.admin img {
+    max-width: 29px;
+	max-height: 29px;
+    margin-right: 3px;
+	border-radius: 50%;
+}
+
+.dashboard a {
+    color: #d6cdc9;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+
+span.navicon {
+    margin-left: -20px;
+    font-size: 0px;
+}
+
+span.navicon svg.svg-inline--fa.fa-tachometer-alt.fa-w-18.mr-2 {
+    font-size: 15px;
+    background-color: none!important;
+	margin-left: -3px;
+}
+
+span.navicon svg.svg-inline--fa.fa-user.fa-w-16.mr-2 {
+    font-size: 14px;
+    background-color: none!important;
+	margin-top: 3px;
+}
+span.navicon svg.svg-inline--fa.fa-users.fa-w-20.mr-2 {
+    font-size: 14px;
+    background-color: none!important;
+	margin-left: -5px;
+}
+.otersection {
+    padding: 15px 10px;
+}
+
+.deshsec {
+    background: #a0a0a0;
+    border-radius: 5px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+	
+
+.from-inner {
+	width:70%;
+	margin: 50px auto;
+}
+
+.lfrom-inner {
+	width:70%;
+	margin: 50px auto;
+}
+.from-inner {
+    width: 90%;
+}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*Copy Right Section*/
+.copyright {
+    padding: 10px 0;
+    background: #010f1d;
+    overflow: hidden;
+}
+
+.copyright p {
+    color:white;
+	margin-bottom:-4px;
+	padding:10px 0;
+	font-size: 14px;
+}
+.copyright p a{
+	text-decoration:none;
+	color: #56a4da;
+}
